@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+<h1 align="center">Online-Food-Shop 🚚</h1>  
+<p align="center">
+    A somewhat complex online food app created with <a href="https://reactjs.org/">React</a> and <a href="https://redux.js.org/">Redux</a>.
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![online food](https://github.com/VampireNoob/Online-Food/assets/128150500/6f4346ff-02eb-44f8-b9be-145cf7ede33c)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Here I have created a somewhat complex online-food app with React.js and Redux.
 
-### `npm start`
+You can view a live demo of the project here: https://onlinefood-shop.netlify.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🙂 Features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ✔️ Primarily we're working with Redux here to add and remove items from the shopping cart.
+- ✔️ Working with the methods map, filter and find.
+- ✔️ We can also vary the number of products.
 
-### `npm test`
+## A small part of the code where we use the "find" method.
+````
+const CartItem = ({ cartItem }) => {
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    const dishes = dataDishes.find(item => item.id === cartItem.dishId)
+    const dispatch = useDispatch();
+````
 
-### `npm run build`
+## Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In this section you will find the programming languages ​​/ frameworcs / libraries that I used in this project.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* <img src="https://github.com/VampireNoob/Wedding-Wish-List/assets/128150500/d1885e0d-bc56-480b-b104-b181b8c82cbf" width="30">
+* <img src="https://github.com/VampireNoob/Wedding-Wish-List/assets/128150500/c43e4d15-62e4-4254-a673-c4021fd4cf25" width="30">
+* <img src="https://github.com/VampireNoob/Wedding-Wish-List/assets/128150500/e8f0b5ca-935a-45d1-b5c0-419f02ee83d4" width="30">
+* <img src="https://github.com/VampireNoob/Online-Food/assets/128150500/89651946-9ca7-49d0-833d-2733e9d295eb" width="30">
