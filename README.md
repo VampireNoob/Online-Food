@@ -16,7 +16,7 @@ You can view a live demo of the project here: https://onlinefood-shop.netlify.ap
 - ✔️ Working with the methods map, filter and find.
 - ✔️ We can also vary the number of products.
 
-## A small part of the code where we use the "find" method.
+## A really small part of the code 😉 where we use the "find" method.
 ````
 const CartItem = ({ cartItem }) => {
 
