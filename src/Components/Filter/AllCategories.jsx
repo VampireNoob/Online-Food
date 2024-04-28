@@ -8,8 +8,8 @@ const AllCategories = () => {
 {/* 7. hier verwenden wir ein massiv wo wir die ganzen benenungen der gerichte durchschreiben, das gleichen wir der
 methode "map" an, um zugriff auf jedes einzelne objekt zu kriegen, um es in der komponente "Filter.jsx" abzubilden
 verwenden wir den prop "category" */}
-            {['ALLES', 'VORSPEISE', 'MEERESFRÜCHTE', 'ITALIENISCH', 'SALATE', 'DESSERT'].map(category => 
-            <Filter category={ category } />)}
+            {['ALLES', 'VORSPEISE', 'MEERESFRÜCHTE', 'ITALIENISCH', 'SALATE', 'DESSERT'].map((category, index) => 
+            <Filter category={ category } key={ index } />)}
         </div>
     )
 }
