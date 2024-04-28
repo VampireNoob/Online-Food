@@ -18,7 +18,7 @@ const Cart = () => {
             <h3>GESAMT: { totalPrice } Euro</h3>
 {/* 21.1 durch die methode "map" erhalten wir zugriff auf einzelne artikel die in die komponente "CartItem.jsx"
 zugefügt werden und verbinden es durch den prop "cartItem" mit der selbigen komponente  */}
-            {cartItems.map(cartItem => <CartItem cartItem={cartItem} />)}
+            {cartItems.map((cartItem, id) => <CartItem cartItem={cartItem} key={ id } />)}
         </div>
     )
 }
