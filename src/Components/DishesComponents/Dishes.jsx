@@ -22,7 +22,7 @@ const Dishes = () => {
             })
 // 5. durch die methode "map" erhalten wir zugang zu jedem einzelnen objekt was sich in "dataDishes.jsx" befindet
 // und bilden es in verbindung mit der komponente "Dish.jsx" auf dem interface ab, "dish" = prop
-            .map(dish => <Dish dish={ dish } />)}
+            .map((dish, id) => <Dish dish={ dish } key={ id } />)}
         </div>
     )
 }
